@@ -42,7 +42,7 @@ Before starting the tasks, examine the contents of the C code file and the Makef
 
 ### Task 2: Additional operators
 
-Look at the three variations on the `absdiff` function in the `variant_condits.c` file. It is computing and returning what is called the absolute difference between the inputs x and y. Look at the first function, `absdiff`, and study it to make sure you know what it is doing.
+Look at the three variations on the `absdiff` function in the `absdiff.c` file. It is computing and returning what is called the absolute difference between the inputs x and y. Look at the first function, `absdiff`, and study it to make sure you know what it is doing.
 
 The next two functions in this file are equivalent to `absdiff`. The first one, `absdiff_j`, mimics how the compiler, when set to minimally optimize code, creates the assembly using a jump where you see goto in the C.
 
