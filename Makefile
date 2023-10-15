@@ -22,7 +22,7 @@ all: files
 files:	basic_files boolean_files absdiff_files
 basic_files: basic_condits.s
 boolean_files: boolean_funcs.s
-absdiff_files: absdiff.c
+absdiff_files: absdiff.s
 
 clean:
 	rm -f *.s *.opt00_s *.opt01_s
