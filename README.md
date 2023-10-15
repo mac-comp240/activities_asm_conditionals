@@ -52,7 +52,7 @@ The third function `absdiff_cm`, mimics what the compiler does to turn the above
 - Next, generate the assembly code, and examine it. What are the differences between the assembly for `absdiff` and `absdiff_j`?
 - Compare the assembly for `absdiff_cm` with the other two. How is it different and why?
 - Record here your notes on why the three are different
-- Add the filename `variant_condits_opt01.s` to the `variant_files` rule in the Makefile and make the optimizes assembly
+- Add the filename `absdiffOPT.s` to the `variant_files` rule in the Makefile and make the optimized assembly
 - Compare the optimized assembly to the unoptimized version: How and why are they different? Be sure to understand the role of the `cmov` instructions
 - Discuss, and record your notes here
 
